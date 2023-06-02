@@ -1,0 +1,49 @@
+.payment-page-container{
+    width: 375px;
+    margin: 20px auto;
+    height: 500px;
+    padding: 20px;
+}
+.payment-form{
+    display: flex;
+    flex-direction: column;
+}
+.form-inp-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.flex-form-inp-container{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-form-inp-container>div{
+    width: 48%;
+}
+.label{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: medium;
+}
+.form-inp-tag{
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(65, 64, 64);
+    border-radius: 5px;
+}
+.type-number::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.pay-now-btn{
+    padding: 15px;
+    font-weight: 500;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(180, 20, 105);
+    color: white;
+    cursor: pointer;
+}
+.pay-now-btn:hover{
+    background-color: rgb(131, 23, 81);
+}

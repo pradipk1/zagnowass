@@ -1,0 +1,337 @@
+.Product-Details-page-container{
+    position: relative;
+    width: 375px;
+    height: 812px;
+    margin: auto;
+
+    background: #FFFFFF;
+}
+.mobile-battery-container{
+    position: absolute;
+    width: 337px;
+    height: 23.68px;
+    left: 20px;
+    top: 11px;
+
+    background: url(../images/Group8918.png);
+}
+.prod-menu-bar{
+    position: absolute;
+    width: 325px;
+    height: 35px;
+    left: 25px;
+    top: 44px;
+
+    background: url(../images/prod-menu-bar.png);
+}
+.prod-details-container{
+    position: absolute;
+    width: 375px;
+    height: 412px;
+    /* left: 0px; */
+    top: 400px;
+}
+.prod-meta-container{
+    position: absolute;
+    width: 327px;
+    height: 75px;
+    left: 0px;
+    top:20px;
+}
+.prod-title-div{
+    position: absolute;
+    width: 121px;
+    height: 56px;
+    left: 25px;
+    /* top: 420px; */
+}
+.prod-title-div>p:first-child{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 37.44px;
+    color: #000000;
+}
+.prod-title-div>p:last-child{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 22.88px;
+    color: #666666;
+}
+.prod-review{
+    position: absolute;
+    width: 156px;
+    height: 17px;
+    left: 25px;
+    top: 78px;
+
+    background: url(../images/review.png);
+}
+.prod-quantity-div{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    right: 0px;
+    top: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EEEEEE;
+    border-radius: 30px;
+}
+.prod-decr-btn{
+    border: none;
+    padding-left: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.prod-incr-btn{
+    border: none;
+    padding-left: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.prod-stok-div{
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 259px;
+    top: 71px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #000000;
+}
+.prod-size-container{
+    position: absolute;
+    width: 32px;
+    height: 24px;
+    left: 24px;
+    top: 118px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.prod-size-div{
+    position: absolute;
+    width: 260px;
+    height: 40px;
+    top: 36px;
+}
+.size-s-div{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #DDDDDD;
+
+    background: url(../images/Ellipse.png);
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.size-s-div>span{
+    position: absolute;
+    width: 9px;
+    height: 21px;
+    left: 15px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+.size-m-div{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 55px;
+    border: 1px solid #DDDDDD;
+
+    background: url(../images/Ellipse.png);
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.size-m-div>span{
+    position: absolute;
+    width: 9px;
+    height: 21px;
+    left: 13px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+.size-l-div{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 115px;
+    border: 1px solid #DDDDDD;
+
+    background: url(../images/Ellipse.png);
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.size-l-div>span{
+    position: absolute;
+    width: 9px;
+    height: 21px;
+    left: 16px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+.size-xl-div{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 165px;
+    border: 1px solid #DDDDDD;
+
+    background: url(../images/Ellipse.png);
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.size-xl-div>span{
+    position: absolute;
+    width: 9px;
+    height: 21px;
+    left: 12px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+.size-xxl-div{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 220px;
+    border: 1px solid #DDDDDD;
+
+    background: url(../images/Ellipse.png);
+    background-position: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.size-xxl-div>span{
+    position: absolute;
+    width: 9px;
+    height: 21px;
+    left: 7px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #888888;
+}
+.active-size{
+    background-color: #000000;
+    color: #FFFFFF !important;
+}
+.prod-desc-div{
+    position: absolute;
+    width: 326px;
+    height: 85px;
+    left: 24px;
+    top: 219px;
+}
+.prod-desc-title{
+    position: absolute;
+    width: 93px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.prod-desc{
+    position: absolute;
+    width: 325px;
+    height: 46px;
+    left: 1px;
+    top: 39px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #666666;
+}
+.prod-total-price-div{
+    position: absolute;
+    width: 70px;
+    height: 29px;
+    left: 25px;
+    top: 346px;
+}
+.prod-total-price-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 9px;
+    color: #AAAAAA;
+}
+.prod-total-price-span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+.prod-buy-btn{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 150px;
+    top: 336px;
+    cursor: pointer;
+
+    background: url(../images/button.png);
+}
+.prod-details-bg{
+    position: absolute;
+    width: 375px;
+    height: 412px;
+    background: #FFFFFF;
+    border-radius: 30px 30px 0px 0px;
+}
+.size-cursor-pointer{
+    cursor: pointer;
+}
